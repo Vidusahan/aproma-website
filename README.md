@@ -33,23 +33,3 @@ src/
   utils/        Framer Motion animation variants
 ```
 
-## Replacing placeholders
-
-- **Logo** — swap the icon + wordmark in `Navbar.jsx` and `Footer.jsx`.
-- **Images** — all photos are Unsplash placeholders; URLs live in `src/data/*`.
-- **Client / partner / certification logos** — placehold.co URLs in `src/data/site.js`.
-- **Copy** — every heading, paragraph and FAQ is in `src/data/`, not hard-coded in pages.
-- **Forms** — `ContactForm.jsx` and the careers `ApplicationForm` simulate submission;
-  wire the `handleSubmit` handlers to your backend or email API.
-- **Google Maps** — replace the placeholder blocks in `Contact.jsx` and `Footer.jsx`
-  with a real `<iframe>` embed.
-
-## Features
-
-- Sticky glassmorphic navbar with a Services mega menu and mobile drawer
-- Full-screen animated hero with parallax, floating stats and an animated wave divider
-- Infinite logo marquees, testimonial carousel (Swiper), animated counters (CountUp)
-- Project filtering with load-more; blog search, categories and pagination
-- Per-page SEO (title, description, keywords, Open Graph) via React Helmet Async
-- Route-level code splitting, lazy-loaded images, reduced-motion support,
-  keyboard-visible focus states, semantic HTML and ARIA labels
